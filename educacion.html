@@ -6,92 +6,98 @@
   <title>Hoja de vida Clark Pinto</title>
 </head>
 <body>
+  <section name="Informacion">
+    <svg width="100px" height="100px" viewbox="0 0 100 100">
+      <image width="100px" height="100px"px xlink:href="imagenes/logo.svg"></image>
+    </svg>
+    <h1>Hoja de vida</h1>
+    <h2>Clark Jordán Edward Pinto Pavez</h2>
+    <h3>Naci en Santiago de Chile el 15/04/1992</h3>
+    ---------------------------------------------------
+  </section>
+  <section name="Menu">
+    <ul>
+      <li><a href="index.html">Perfil</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+    ---------------------------------------------------
+  </section>
+  <section name="Educacion">
+    <h2>Educacion</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
 
-  <svg width="100px" height="100px" viewbox="0 0 100 100">
-    <image width="100px" height="100px"px xlink:href="imagenes/logo.svg"></image>
-  	</svg>
+      <thead>
+        <th>Año</th>
+        <th>Institucion</th>
+        <th>Lugar</th>
+        <th>¿Culmino?</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2011</td>
+          <td>Universidad andres bello</td>
+          <td>Santiago de chile</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>2015</td>
+          <td>Universidad tecnologia de chile </td>
+          <td>Santiago de chile</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2019</td>
+          <td>Next University</td>
+          <td>Colombia</td>
+          <td>No</td>
+        </tr>
 
-
-  <h1>Hoja de vida</h1>
-  <h2>Clark Jordán Edward Pinto Pavez</h2>
-  <h3>Naci en Santiago de Chile el 15/04/1992</h3>
-  ---------------------------------------------------
-  <ul>
-  <li><a href="index.html">Perfil</a></li>
-  <li><a href="experiencia.html">Experiencia</a></li>
-  </ul>
-  ---------------------------------------------------
-
-  <h2>Educacion</h2>
-  <table border="1" cellpadding="10" cellspacing="0">
-
-  <thead>
-    <th>Año</th>
-    <th>Institucion</th>
-    <th>Lugar</th>
-    <th>¿Culmino?</th>
-  </thead>
-  <tbody>
-    <tr>
-<td>2011</td>
-<td>Universidad andres bello</td>
-<td>Santiago de chile</td>
-<td>No</td>
-    </tr>
-    <tr>
-<td>2015</td>
-<td>Universidad tecnologia de chile </td>
-<td>Santiago de chile</td>
-<td>Si</td>
-    </tr>
-    <tr>
-<td>2019</td>
-<td>Next University</td>
-<td>Colombia</td>
-<td>No</td>
-    </tr>
-
-  </tbody>
-  </table>
-  ---------------------------------------------------
+      </tbody>
+    </table>
+    ---------------------------------------------------
     <h2>Agregar Estudios</h2>
     <form class="" action="index.html" method="post">
-      <table>
-      <tr>
-      <td>Año:</td>
-      <td><select class="" name="">
-        <option value="2016">2016</option>
-        <option value="2017">2017</option>
-        <option value="2018">2018</option>
-      </select>
-      </td>
-      <tr>
-        <td>Institucion:</td>
-        <td><input type="text" name="" value="">
-      </tr>
-<tr>
-  <td>Lugar:</td>
-  <td><textarea name="name" rows="2" cols="30"></textarea></td>
-  </tr>
-  <tr>
-    <td><input type="submit" name="" value="Enviar"></td>
-    <td><input type="reset" name="" value="Limpiar"></td>
-    </tr>
+      <fieldset>
+        <legend>Agregar Estudios  </legend>
+        <table >
+          <tr>
+            <td><label>Año:</label></td>
+            <td><select class="" name="lstYear" required>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+            </select>
+          </td>
+          <tr>
+            <td>Institucion:</td>
+            <td><input type="text" name="txtInstitucion" value="" required placeholder="ej: unam">
+            </tr>
+            <tr>
+              <td>Lugar:</td>
+              <td><textarea name="name" rows="2" cols="30" required placeholder="ej: Sf"></textarea></td>
+            </tr>
+            <tr>
+              <td><input type="submit" name="" value="Enviar"></td>
+              <td><input type="reset" name="" value="Limpiar"></td>
+            </tr>
 
-        </table>
-    </form>
-    ---------------------------------------------------
+          </table>
+
+        </fieldset>
+      </form>
+      ---------------------------------------------------
+    </section>
     <footer>
-    <h3>
-    Contacto
-    </h3>
-    <ul>
-      <li>clarkjumpen@hotmail.com</li>
-      <li>+56984849595</li>
-      <li><A HREF="mailto:clarkjumpen@hotmail.com&subject=Hola">
-    Escribeme</A></li>
-    </ul>
-    </footer>
-    ---------------------------------------------------
-</body>
-</html>
+      <h3>
+        Contacto
+      </h3>
+      <ul>
+        <li>clarkjumpen@hotmail.com</li>
+        <li>+56984849595</li>
+        <li><A HREF="mailto:clarkjumpen@hotmail.com&subject=Hola">
+          Escribeme</A></li>
+        </ul>
+      </footer>
+      ---------------------------------------------------
+    </body>
+    </html>
